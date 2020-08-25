@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Password ARCHIVE</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> background-color: rgba(0,0,0,0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color: qlineargradient(spread:pad, x1:0.489, y1:1, x2:0.483, y2:0, stop:0.0454545 rgba(0, 0, 0, 0), stop:0.704545 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 55));
+}
+
+QPushButton{
+	color: #ffffff;
+	background-color: rgba(200,200,200, 0.3);
+    border: 3px solid transparent;
+	border-left: 5px transparent;
+	border-right: 5px transparent;
+    border-radius: 14px;
+    min-width: 80px;
+}
+
+QPushButton:pressed {
+	 border: 5px solid #0022ff;
+	border-left: 5px transparent;
+	border-right: 5px transparent;
+	color: rgba(100,100,100,1);
+	
+}
+
+QPushButton:hover{
+	border: 3px solid #00ff22;
+	border-left: 3px transparent;
+	border-right: 3px transparent;
+}
+
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
+
+QMainWindow{
+	background-color: qlineargradient(spread:pad, x1:0.489, y1:1, x2:0.483, y2:0, stop:0.0454545 rgba(0, 0, 0, 0), stop:0.704545 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 55));
+}
+ 
+
+ </string>
+   </property>
+   <widget class="QLabel" name="label_passwordarchive">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>641</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Berlin Sans FB</family>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.489, y1:1, x2:0.483, y2:0, stop:0.0454545 rgba(0, 0, 0, 0), stop:0.494318 rgba(0, 0, 0, 109), stop:0.892045 rgba(0, 0, 0, 255));</string>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Berlin Sans FB'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; color:#ffffff;&quot;&gt;Λ&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri (body)'; font-size:22pt; color:#ffffff;&quot;&gt; R &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri (Body)'; font-size:22pt; color:#ffffff;&quot;&gt;C H I V Ξ &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:22pt; color:#ffffff; vertical-align:super;&quot;&gt;™&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_signin">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>270</y>
+      <width>350</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>350</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>S I G Π  I Π</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_signup">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>170</y>
+      <width>350</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>350</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semibold</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>S I G Π  U P</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_bgimg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>701</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../WALLZ/earth.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:20pt; font-weight:600; color:#24f100;&quot;&gt;Password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_bgimg</zorder>
+   <zorder>label_passwordarchive</zorder>
+   <zorder>pushButton_signin</zorder>
+   <zorder>pushButton_signup</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
